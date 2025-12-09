@@ -1,3 +1,6 @@
+Abou Me!
+Hellow there, I'm kevin gading a.p, a student from SMKN 8 Semarang with a growing curiosity in the world of IT. These repositories contains my learning journey.I believe in learning by doing, and this is where I try, fail, and grow. Feel free to explore or leave feedback. Thankyou!
+
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/kvin_gda) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:keviin11223345@gmail.com) 
