@@ -6,7 +6,10 @@ on:
     - cron: '0 0 * * *' # daily at midnight UTC
   push:
     branches:
-      - main  # change if your default branch has a different name
+      - main  # runs on pushes to main
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -14,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Create output directories
         run: |
@@ -25,14 +30,14 @@ jobs:
           curl -L "https://github-readme-stats.vercel.app/api?username=waeterr&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" -o stats-output/stats.svg
           curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=waeterr&layout=compact&theme=dracula" -o languages-output/languages.svg
 
-      - name: (Optional) Pacman / contribution-style graph placeholder
+      - name: (Optional) Generate pacman/pixel graph
         run: |
-          # Many pacman-style graphs are generated with a separate action.
-          # If you already have a generator, place its step here.
-          echo "<!-- pacman graph placeholder -->" > pacman-output/README.placeholder
+          # If you have a generator action for pacman-style contribution graphs, replace this step.
+          # For now create a simple placeholder or download a generated SVG into pacman-output/
+          echo "<!-- pacman graph placeholder -->" > pacman-output/galaga-contribution-graph.svg
 
       - name: Commit and push generated images
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'chore: update README stats images'
-          branch: main  # change if your default branch is not 'main'
+          branch: main
