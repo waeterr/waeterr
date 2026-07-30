@@ -1,0 +1,38 @@
+name: Generate README stats SVGs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # daily at midnight UTC
+  push:
+    branches:
+      - main  # change if your default branch has a different name
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create output directories
+        run: |
+          mkdir -p stats-output languages-output pacman-output
+
+      - name: Download GitHub Readme Stats (stats & top languages)
+        run: |
+          # Update the username and query params if you want different options
+          curl -L "https://github-readme-stats.vercel.app/api?username=waeterr&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" -o stats-output/stats.svg
+          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=waeterr&layout=compact&theme=dracula" -o languages-output/languages.svg
+
+      - name: (Optional) Pacman / contribution-style graph placeholder
+        run: |
+          # Many pacman-style graphs are generated with a separate action.
+          # If you already have a generator, place its step here.
+          echo "<!-- pacman graph placeholder -->" > pacman-output/README.placeholder
+
+      - name: Commit and push generated images
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore: update README stats images'
+          branch: main  # change if your default branch is not 'main'
