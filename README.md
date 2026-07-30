@@ -9,6 +9,10 @@
 
 ###
 
+<img data-importer="image" align="right" height="150" src="https://media1.tenor.com/m/OTE2C8NwrmwAAAAC/mm.gif"  />
+
+###
+
 <div data-importer="techs" align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
@@ -18,14 +22,10 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="30" alt="laravel logo"  />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="30" alt="laravel logo"  />
 </div>
-
-###
-
-<img data-importer="image" align="right" height="150" src="https://media1.tenor.com/m/vapdwHzWOkIAAAAC/musashi-musashi-miyamoto.gif"  />
 
 ###
 
