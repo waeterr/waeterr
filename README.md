@@ -1,4 +1,4 @@
-<h2 data-importer="text" align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
+<h2 data-importer="text" align="left">Hi 👋! My name is Kevin and I'm a Student, from SMKN 8 Semarang</h2>
 
 ###
 
