@@ -1,43 +1,36 @@
-name: Generate README stats SVGs
+name: Generate stats card
 
 on:
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *' # daily at midnight UTC
+
   push:
     branches:
-      - main  # runs on pushes to main
-
-permissions:
-  contents: write
+    - main
 
 jobs:
-  build:
+  generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: generate stats.svg
+        uses: readme-tools/github-readme-stats-action@v1
         with:
-          persist-credentials: true
+          card: stats
+          options: username=${{ github.repository_owner }}&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create output directories
-        run: |
-          mkdir -p stats-output languages-output pacman-output
 
-      - name: Download GitHub Readme Stats (stats & top languages)
-        run: |
-          # Update the username and query params if you want different options
-          curl -L "https://github-readme-stats.vercel.app/api?username=waeterr&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" -o stats-output/stats.svg
-          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=waeterr&layout=compact&theme=dracula" -o languages-output/languages.svg
-
-      - name: (Optional) Generate pacman/pixel graph
-        run: |
-          # If you have a generator action for pacman-style contribution graphs, replace this step.
-          # For now create a simple placeholder or download a generated SVG into pacman-output/
-          echo "<!-- pacman graph placeholder -->" > pacman-output/galaga-contribution-graph.svg
-
-      - name: Commit and push generated images
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: push stats.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          commit_message: 'chore: update README stats images'
-          branch: main
+          target_branch: stats-output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
