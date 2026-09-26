@@ -1,4 +1,4 @@
-<h2 data-importer="text" align="left">Hi 👋! My name is Kevin and I'm want to learn,</h2>
+<h2 data-importer="text" align="left">Hi 👋! My name is Kevin and I want to learn,</h2>
 
 ###
 
