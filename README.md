@@ -45,6 +45,12 @@
   <img src="https://githance.in/api/render?type=decor&variant=spark-line&v=rect-v4&pc=%2353D0FF&sc=%23FF7A1A&ac=%23D946EF&t=8&align=center&span=98" alt="Spark Line" />
 </p>
 
-<img data-importer="snake" src="https://raw.githubusercontent.com/waeterr/waeterr/snake-output/snake.svg" alt="Snake animation" />
+<picture data-importer="pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/waeterr/waeterr/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/waeterr/waeterr/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/waeterr/waeterr/pacman-output/pacman-contribution-graph.svg?game=pacman">
+</picture>
+
+###
 
 ###
