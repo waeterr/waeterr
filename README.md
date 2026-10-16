@@ -1,38 +1,49 @@
-<h2 data-importer="text" align="left">Hi 👋! My name is Kevin and I want to learn,</h2>
-
-###
-
-<div data-importer="stats" align="center">
- 
-  <img src="https://raw.githubusercontent.com/waeterr/waeterr/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=160&section=header&text=Kevin%20gading%20a.p&fontSize=38&fontAlignY=35&desc=code%20and%20build&descAlignY=60" />
 </div>
 
-###
 
-<img data-importer="image" align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+<h3><br></h3><h2>👋 Hey, I'm a developer who loves building creative projects and exploring new technologies.</h2><h6>💻 Interested in full-stack development, TypeScript, JavaScript, PHP, Laravel, and Kotlin.</h6><h6>🚀 I enjoy turning ideas into real-world projects, experimenting with new tools, and continuously improving my programming skills.</h6><h6>🛠️ Currently exploring web development, Android development, and building projects that go beyond the ordinary.</h6><h6>🌱 Always learning, always building.</h6><ul>
+</ul>
 
-###
 
-<div data-importer="techs" align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="30" alt="laravel logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-</div>
+## Tech Stack
 
-###
+### Languages:
 
-<div data-importer="socials" align="left">
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-</div>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=php" alt="PHP" width="44" height="44" style="margin-right: 10px; margin-bottom: 8px;" />
+  <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" width="44" height="44" style="margin-right: 10px; margin-bottom: 8px;" />
+  <img src="https://skillicons.dev/icons?i=kotlin" alt="Kotlin" width="44" height="44" style="margin-right: 10px; margin-bottom: 8px;" />
+  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="44" height="44" style="margin-right: 10px; margin-bottom: 8px;" />
+</p>
 
-###
+### Libraries & Frameworks:
 
-<br clear="both">
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react" alt="React" width="44" height="44" style="margin-right: 10px; margin-bottom: 8px;" />
+  <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" width="44" height="44" style="margin-right: 10px; margin-bottom: 8px;" />
+  <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="44" height="44" style="margin-right: 10px; margin-bottom: 8px;" />
+  <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" width="44" height="44" style="margin-right: 10px; margin-bottom: 8px;" />
+</p>
+
+### Tools & Platforms:
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="44" height="44" style="margin-right: 10px; margin-bottom: 8px;" />
+  <img src="https://skillicons.dev/icons?i=git" alt="Git" width="44" height="44" style="margin-right: 10px; margin-bottom: 8px;" />
+</p>
+
+### Databases:
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" width="44" height="44" style="margin-right: 10px; margin-bottom: 8px;" />
+</p>
+
+
+<p align="center">
+  <img src="https://githance.in/api/render?type=decor&variant=spark-line&v=rect-v4&pc=%2353D0FF&sc=%23FF7A1A&ac=%23D946EF&t=8&align=center&span=98" alt="Spark Line" />
+</p>
 
 <img data-importer="snake" src="https://raw.githubusercontent.com/waeterr/waeterr/snake-output/snake.svg" alt="Snake animation" />
 
