@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=160&section=header&text=Kevin%20gading%20a.p&fontSize=38&fontAlignY=35&desc=code%20and%20build&descAlignY=60" />
-</div>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=kevin%20gading&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40" width="100%"/>
 
 
 <h3><br></h3><h2>👋 Hey, I'm a developer who loves building creative projects and exploring new technologies.</h2><h6>💻 Interested in full-stack development, TypeScript, JavaScript, PHP, Laravel, and Kotlin.</h6><h6>🚀 I enjoy turning ideas into real-world projects, experimenting with new tools, and continuously improving my programming skills.</h6><h6>🛠️ Currently exploring web development, Android development, and building projects that go beyond the ordinary.</h6><h6>🌱 Always learning, always building.</h6><ul>
